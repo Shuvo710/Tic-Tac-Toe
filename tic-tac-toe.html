@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic_Tac_Toe</title>
+  <link rel="stylesheet" href="tic-tac-toe.css">
+</head>
+<body>
+  <div class="contaenar">
+    <main class="background">
+    <section class="title">
+        <h1>Tic Tac Toe</h1>
+    </section>
+    <section id="contaenar" class="container">
+        <div id="0" class="board" onclick="action(0)"></div>
+        <div id="1" class="board" onclick="action(1)"></div>
+        <div id="2" class="board" onclick="action(2)"></div>
+        <div id="3" class="board" onclick="action(3)"></div>
+        <div id="4" class="board" onclick="action(4)"></div>
+        <div id="5" class="board" onclick="action(5)"></div>
+        <div id="6" class="board" onclick="action(6)"></div>
+        <div id="7" class="board" onclick="action(7)"></div>
+        <div id="8" class="board" onclick="action(8)"></div>
+    </section>
+    <h1 id="announcer"></h1>
+    <section class="display announcer hide"></section>
+    <section class="controls">
+        <button id="reset"><a href="tic-tac-toe.html">Reset</a></button> 
+    </section>
+</main>
+
+  <script src="tic-tac-toe.js"></script>
+</body>
+</html>
